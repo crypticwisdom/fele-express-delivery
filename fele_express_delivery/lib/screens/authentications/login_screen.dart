@@ -92,10 +92,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   GestureDetector(
-                    child: Image.asset("assets/images/facebook_logo.png"),
-                    onTap: (){
-                      
-                    },
+                    child: Image.asset(
+                      "assets/images/facebook_logo.png",
+                      width: 200,
+                    ),
+                    onTap: () {},
                   ),
                   // IconButton(
                   //   onPressed: () {},
