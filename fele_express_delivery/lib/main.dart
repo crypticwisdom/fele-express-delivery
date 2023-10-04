@@ -2,17 +2,13 @@
 // import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:sizer/sizer.dart';
 
 void main() {
   runApp(
-    Sizer(builder: (context, orientation, deviceType) {
-      // print(deviceType);
-      return const MaterialApp(
-        // home: SplashScreen(),
-        debugShowCheckedModeBanner: false,
-      );
-    }),
+    MaterialApp(
+      // home: SplashScreen(),
+      debugShowCheckedModeBanner: false,
+    ),
   );
 }
 
