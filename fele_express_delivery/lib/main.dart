@@ -1,7 +1,6 @@
 // import 'package:fele_express_delivery/screens/authentications/login_screen.dart';
 // import 'dart:html';
 
-import 'package:fele_express_delivery/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -10,7 +9,7 @@ void main() {
     Sizer(builder: (context, orientation, deviceType) {
       // print(deviceType);
       return const MaterialApp(
-        home: SplashScreen(),
+        // home: SplashScreen(),
         debugShowCheckedModeBanner: false,
       );
     }),
