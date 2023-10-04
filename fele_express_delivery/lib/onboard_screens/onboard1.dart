@@ -8,11 +8,11 @@ class OnboardScreen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.green,
-      body: ResponsiveLayout(
-          mobileLayout: ,
-          tabletLayout: ,
-          desktopLayout: ,
-        ),
+      // body: ResponsiveLayout(
+      //     mobileLayout: ,
+      //     tabletLayout: ,
+      //     desktopLayout: ,
+      //   ),
     );
   }
 }
